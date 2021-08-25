@@ -1,0 +1,55 @@
+name: cryptostream
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  http: ^0.13.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/searchbtn.png
+    - images/settingbtn.png
+    - images/cancelbtn.png
+    - images/backbtn.png
+    - images/favoritebtn.png
+    - images/favoritestarbtn.png
+    - images/infobtn.png
+    - images/notibtn.png
+  fonts:
+    - family: PretendardBlack
+      fonts:
+        - asset: fonts/pretendardblack.otf
+    - family: PretendardExtraBold
+      fonts:
+        - asset: fonts/pretendardextrabold.otf
+    - family: PretendardBold
+      fonts:
+        - asset: fonts/pretendardbold.otf
+    - family: PretendardSemiBold
+      fonts:
+        - asset: fonts/pretendardsemibold.otf
+    - family: PretendardMedium
+      fonts:
+        - asset: fonts/pretendardmedium.otf
+    - family: PretendardRegular
+      fonts:
+        - asset: fonts/pretendardregular.otf
